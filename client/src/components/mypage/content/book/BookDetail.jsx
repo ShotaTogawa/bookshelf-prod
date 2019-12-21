@@ -36,7 +36,6 @@ class BookDetail extends Component {
 
   renderBookInfo = book => {
     // if (!book) return <Spinner />;
-    console.log(book._id);
     return (
       <>
         <Image

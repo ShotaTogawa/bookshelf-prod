@@ -39,7 +39,6 @@ class BookInfo extends Component {
 }
 
 const mapStateToProps = state => {
-  console.log("book", state.book.book);
   return {
     book: state.book.book,
     user: state.user.user
