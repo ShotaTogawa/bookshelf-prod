@@ -12,7 +12,6 @@ const renderCards = (cards, loading) => {
 };
 
 const CardList = ({ cards, loading }) => {
-  console.log(cards[0]);
   return (
     <div
       style={{
