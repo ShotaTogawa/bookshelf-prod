@@ -4,3 +4,5 @@ dev.js
 test.env
 Dockerfile
 .travis.yml
+app copy.js
+index copy.js

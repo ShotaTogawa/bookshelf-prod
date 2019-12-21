@@ -1,10 +1,10 @@
 const express = require("express");
-require("./db/mongoose");
-const authRouter = require("./router/auth");
-const userRouter = require("./router/user");
-const bookRouter = require("./router/book");
-const memoRouter = require("./router/memo");
-const uploadRouter = require("./router/upload");
+require("./src/db/mongoose");
+const authRouter = require("./src/router/authh");
+const userRouter = require("./src/router/user");
+const bookRouter = require("./src/router/book");
+const memoRouter = require("./src/router/memo");
+const uploadRouter = require("./src/router/upload");
 
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
@@ -25,13 +25,13 @@ app.use("/api", uploadRouter);
 if (process.env.NODE_ENV === "production") {
   // Express will serve up production assets
   // like our main.js file, or main.css file!
-  app.use(express.static("/client/build"));
+  app.use(express.static("client/build"));
 
   // Express will serve up the index.html file
   // if it doesn't recoginize the route
   const path = require("path");
   app.get("*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "/client", "build", "index.html"));
+    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
   });
 }
 
