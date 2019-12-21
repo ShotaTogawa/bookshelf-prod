@@ -1,10 +1,10 @@
 const express = require("express");
-require("./src/db/mongoose");
-const authRouter = require("./src/router/authh");
-const userRouter = require("./src/router/user");
-const bookRouter = require("./src/router/book");
-const memoRouter = require("./src/router/memo");
-const uploadRouter = require("./src/router/upload");
+require("./db/mongoose");
+const authRouter = require("./router/auth");
+const userRouter = require("./router/user");
+const bookRouter = require("./router/book");
+const memoRouter = require("./router/memo");
+const uploadRouter = require("./router/upload");
 
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
