@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const accessPoint = process.env.END_POINT || "http://localhost:8000/";
+let accessPoint = "https://bookshelf112.herokuapp.com/";
+//"http://localhost:8000/";
 
 export const api = axios.create({
   baseURL: accessPoint
