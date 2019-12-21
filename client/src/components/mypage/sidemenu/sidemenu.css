@@ -1,0 +1,73 @@
+.Sidebar {
+  position: sticky;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  transition: margin-left 0.3s ease-out;
+  flex: 0 0 20rem;
+  background-color: #373737;
+  color: #fff;
+  padding: 1rem 2rem 0 2rem;
+}
+.Sidebar .User {
+  position: sticky;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Sidebar .User img {
+  max-width: 60px;
+}
+.Sidebar .User span {
+  font-weight: normal;
+  display: block;
+}
+.MenuList {
+  position: sticky;
+  top: 150px;
+  left: 20px;
+  margin-top: 1rem;
+}
+.MenuList h2 {
+  padding: 1rem 1rem 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+.MenuList .Menu {
+  list-style: none;
+  padding: 0;
+}
+.MenuList .Menu > li {
+  padding: 0.5rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+.MenuList .Menu > li:hover ul {
+  display: block;
+}
+.MenuList .Menu > li ul {
+  display: none;
+  list-style: none;
+  padding: 0.2rem;
+  font-size: 14px;
+  background-color: #040404;
+}
+.MenuList .Menu > li ul li {
+  margin-bottom: 1rem;
+}
+.MenuList .Menu > li ul li:last-of-type {
+  margin-bottom: 0;
+}
+.MenuList .Menu > li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: padding-left 0.3s ease, background-color 0.3s ease-in-out;
+}
+.MenuList .Menu > li ul li a:hover {
+  padding-left: 1rem;
+}

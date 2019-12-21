@@ -1,0 +1,11 @@
+FROM node:alpine
+
+WORKDIR './app'
+
+COPY ./package.json ./
+
+RUN npm install && npm cache verify
+
+COPY . .
+
+CMD ["npm", "run", "dev"]

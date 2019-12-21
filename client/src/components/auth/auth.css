@@ -1,0 +1,63 @@
+.Auth_Container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.Form_auth {
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 400px;
+  height: 100%;
+  margin: 10px auto;
+  padding: 16px;
+  background: #f7f7f7;
+}
+.Form_auth h1 {
+  background: #43d1af;
+  padding: 10px 0;
+  font-size: 180%;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  margin: -16px -16px 16px -16px;
+}
+.Form_auth input[type="text"],
+.Form_auth input[type="email"],
+.Form_auth input[type="password"] {
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  font: 95% Arial, Helvetica, sans-serif;
+}
+.Form_auth input[type="text"]:focus,
+.Form_auth input[type="email"]:focus,
+.Form_auth input[type="password"] {
+  box-shadow: 0 0 5px #43d1af;
+  padding: 3%;
+  border: 1px solid #43d1af;
+}
+
+.Form_auth button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 3%;
+  background: #43d1af;
+  border-bottom: 2px solid #30c29e;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  font-size: 140%;
+  font-weight: bold;
+  color: #fff;
+}
+.Form_auth button:hover {
+  background: #2ebc99;
+}
