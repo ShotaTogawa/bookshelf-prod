@@ -5,8 +5,8 @@ const User = require("../models/user");
 const keys = require("../../config/keys");
 
 const s3 = new AWS.S3({
-  accessKeyId: process.env.ACCESS_KEY_ID,
-  secretAccessKey: process.env.SECRET_ACCESS_KEY,
+  accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+  secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
   signatureVersion: "v4",
   region: "us-west-2"
 });

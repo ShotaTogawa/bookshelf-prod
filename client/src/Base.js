@@ -26,7 +26,7 @@ const Base = () => {
         <PrivateRoute path="/books" exact component={BookTable} />
         <PrivateRoute path="/book/:id" exact component={BookInfo} />
         <PrivateRoute path="/timeline" exact component={Timeline} />
-        <Route path="*" component={() => "404 NOT FOUND"} />
+        {/* <Route path="*" component={() => "404 NOT FOUND"} /> */}
       </Switch>
     </Router>
   );
