@@ -33,7 +33,6 @@ class SearchBook extends Component {
   };
 
   render() {
-    console.log(this.props.searchedBooks);
     return (
       <Grid>
         <SideMenu />
