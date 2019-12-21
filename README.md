@@ -1,6 +1,6 @@
 # Bookshelf
 
-This app was build by MERN stuck. The purpose of this app is to manage your reading easily. I combined a client repository and a server repository to deploy. You can see my process under my github pages. Thank you for checking!
+This app was build by MERN stack. The purpose of this app is to manage your reading easily. I combined a client repository and a server repository to deploy. You can see my process under my github pages. Thank you for checking!
 
 - [client](https://github.com/ShotaTogawa/bookshelf-client)
 - [server](https://github.com/ShotaTogawa/bookshelf)
