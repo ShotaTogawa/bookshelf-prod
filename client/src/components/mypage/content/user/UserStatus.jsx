@@ -9,7 +9,7 @@ const UserStatus = ({ status, cost }) => {
         <Step.Group>
           <Step
             icon="window minimize outline"
-            title={`Before Reading: ${
+            title={`In Queue: ${
               status.beforeReading ? status.beforeReading : 0
             }`}
           />
@@ -17,13 +17,13 @@ const UserStatus = ({ status, cost }) => {
         <Step.Group>
           <Step
             icon="chart line"
-            title={`Current Reading: ${status.reading ? status.reading : 0}`}
+            title={`In Progress: ${status.reading ? status.reading : 0}`}
           />
         </Step.Group>
         <Step.Group>
           <Step
             icon="thumbs up"
-            title={`Finished Books: ${status.read ? status.read : 0}`}
+            title={`Completed: ${status.read ? status.read : 0}`}
           />
         </Step.Group>
         <Step.Group>

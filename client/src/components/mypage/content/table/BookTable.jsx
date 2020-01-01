@@ -77,17 +77,23 @@ class BookTable extends Component {
               name="reading"
               active={this.state.activeItem === "reading"}
               onClick={this.handleItemClick}
-            />
+            >
+              In Progress
+            </Menu.Item>
             <Menu.Item
               name="beforeReading"
               active={this.state.activeItem === "beforeReading"}
               onClick={this.handleItemClick}
-            />
+            >
+              In Queue
+            </Menu.Item>
             <Menu.Item
               name="read"
               active={this.state.activeItem === "read"}
               onClick={this.handleItemClick}
-            />
+            >
+              Completed
+            </Menu.Item>
           </Menu>
           <Table basic="very">
             <Table.Header>
