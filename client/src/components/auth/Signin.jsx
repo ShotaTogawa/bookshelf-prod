@@ -3,7 +3,7 @@ import classes from "./auth.css";
 import { signin } from "../../actions";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-import Spinner from "../../spinner/Spinner";
+import Spinner from "../../components/spinner/Spinner";
 import history from "../../history";
 
 class Signin extends Component {

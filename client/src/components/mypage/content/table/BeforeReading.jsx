@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Spinner from "../../../../spinner/Spinner";
+import Spinner from "../../../../components/spinner/Spinner";
 import { Link } from "react-router-dom";
 import moment from "moment";
 import { Table, Image } from "semantic-ui-react";

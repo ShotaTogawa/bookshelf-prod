@@ -1,7 +1,7 @@
 import React from "react";
 import BookCard from "./BookCard";
 import { Card } from "semantic-ui-react";
-import Spinner from "../../../../spinner/Spinner";
+import Spinner from "../../../../components/spinner/Spinner";
 
 const renderCards = (cards, loading) => {
   if (loading) return <Spinner />;

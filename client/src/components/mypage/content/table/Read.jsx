@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import StarRating from "../../../common/StarRating";
-import Spinner from "../../../../spinner/Spinner";
+import Spinner from "../../../../components/spinner/Spinner";
 import moment from "moment";
 import { Link } from "react-router-dom";
 import { Table, Image } from "semantic-ui-react";

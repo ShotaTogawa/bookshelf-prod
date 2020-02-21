@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Spinner from "../../../../spinner/Spinner";
+import Spinner from "../../../../components/spinner/Spinner";
 import StarRating from "../../../common/StarRating";
 import moment from "moment";
 import { Link } from "react-router-dom";

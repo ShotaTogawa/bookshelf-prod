@@ -3,7 +3,7 @@ import { Button, Popup, Form } from "semantic-ui-react";
 import { connect } from "react-redux";
 import { updateEvaluation } from "../../../../../actions";
 import history from "../../../../../history";
-import Spinner from "../../../../../spinner/Spinner";
+import Spinner from "../../../../../components/spinner/Spinner";
 
 class UpdateEvaluation extends Component {
   state = {

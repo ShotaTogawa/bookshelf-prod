@@ -3,7 +3,7 @@ import CreateMemo from "./CreateMemo";
 import { Comment } from "semantic-ui-react";
 import { connect } from "react-redux";
 import { showMemos, deleteMemo } from "../../../../actions";
-import Spinner from "../../../../spinner/Spinner";
+import Spinner from "../../../../components/spinner/Spinner";
 import history from "../../../../history";
 
 class Memo extends Component {

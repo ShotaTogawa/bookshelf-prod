@@ -4,7 +4,7 @@ import SideMenu from "../../sidemenu/SideMenu";
 import { Grid, Button, Form } from "semantic-ui-react";
 import { searchBooks } from "../../../../actions";
 import { connect } from "react-redux";
-import Spinner from "../../../../spinner/Spinner";
+import Spinner from "../../../../components/spinner/Spinner";
 
 class SearchBook extends Component {
   state = {

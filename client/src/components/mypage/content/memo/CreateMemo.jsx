@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Form, Button } from "semantic-ui-react";
 import { connect } from "react-redux";
 import { createMemo } from "../../../../actions";
-import Spinner from "../../../../spinner/Spinner";
+import Spinner from "../../../../components/spinner/Spinner";
 import history from "../../../../history";
 
 class CreateMemo extends Component {

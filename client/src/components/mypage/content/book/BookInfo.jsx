@@ -5,7 +5,7 @@ import { fetchBook } from "../../../../actions";
 import BookDetail from "./BookDetail";
 import Memo from "../memo/Memo";
 import SideMenu from "../../sidemenu/SideMenu";
-import Spinner from "../../../../spinner/Spinner";
+import Spinner from "../../../../components/spinner/Spinner";
 
 class BookInfo extends Component {
   componentDidMount() {

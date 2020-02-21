@@ -6,7 +6,7 @@ import { isAuthenticated } from ".";
 import history from "../../history";
 
 import { signup } from "../../actions";
-import Spinner from "../../spinner/Spinner";
+import Spinner from "../../components/spinner/Spinner";
 
 const { user } = isAuthenticated();
 
