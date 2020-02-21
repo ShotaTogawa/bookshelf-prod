@@ -3,7 +3,7 @@ import { Feed, Grid, Button } from "semantic-ui-react";
 import SideMenu from "../../sidemenu/SideMenu";
 import { getTimeline } from "../../../../actions";
 import { connect } from "react-redux";
-import Spinner from "../../../../spinner/Spinner";
+import Spinner from "../../../../components/spinner/Spinner";
 import defaultImage from "../../../assets/user.png";
 
 class Timeline extends Component {

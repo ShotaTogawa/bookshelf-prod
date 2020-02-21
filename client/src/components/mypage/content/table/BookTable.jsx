@@ -11,7 +11,7 @@ import {
   tableHeaderRead
 } from "../../../../utils/variables";
 import { Table, Menu, Grid, Button } from "semantic-ui-react";
-import Spinner from "../../../../spinner/Spinner";
+import Spinner from "../../../../components/spinner/Spinner";
 
 class BookTable extends Component {
   state = { activeItem: "beforeReading", skip: 0, loadNum: 5, loading: false };

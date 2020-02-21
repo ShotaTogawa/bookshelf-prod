@@ -4,7 +4,7 @@ import moment from "moment";
 import { connect } from "react-redux";
 import { deleteBook } from "../../../../actions";
 import history from "../../../../history";
-import Spinner from "../../../../spinner/Spinner";
+import Spinner from "../../../../components/spinner/Spinner";
 import defaultImage from "../../../assets/book.png";
 import ImageModal from "../table/sub-components/ImageModal";
 import { Link } from "react-router-dom";

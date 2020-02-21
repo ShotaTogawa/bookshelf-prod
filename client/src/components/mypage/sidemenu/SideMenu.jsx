@@ -3,10 +3,29 @@ import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import defaultImage from "../../assets/user.svg";
 import classes from "./sidemenu.css";
-import { menus } from "../../../utils/variables";
 import { Grid } from "semantic-ui-react";
 import { signout, setCurrentUser } from "../../../actions";
 import ImageModal from "../../mypage/content/table/sub-components/ImageModal";
+
+const menus = [
+  {
+    url: "#",
+    icon: "fas fa-user-circle",
+    title: "User",
+    submenus: [{ url: "/user", title: "Status", icon: "fas fa-list" }]
+  },
+  {
+    url: "#",
+    icon: "fas fa-book",
+    title: "Book",
+    submenus: [
+      { url: "/books", title: "List", icon: "fas fa-th-list" },
+      { url: "/book", title: "Register", icon: "fas fa-plus" },
+      { url: "/book/search", title: "Search", icon: "fas fa-search" },
+      { url: "/timeline", title: "TimeLine", icon: "fas fa-stream" }
+    ]
+  }
+];
 
 class SideMenu extends Component {
   state = {

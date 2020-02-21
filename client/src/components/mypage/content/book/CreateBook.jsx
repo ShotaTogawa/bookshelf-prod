@@ -1,10 +1,26 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { bookGenres } from "../../../../utils/variables";
 import { createBook } from "../../../../actions";
 import { Form, Grid, Message, Checkbox } from "semantic-ui-react";
 import SideMenu from "../../sidemenu/SideMenu";
 import history from "../../../../history";
+
+const bookGenres = [
+  "Arts",
+  "Biographies",
+  "Business",
+  "Computers Technology",
+  "Fitness",
+  "Health",
+  "Literature",
+  "Novel",
+  "Politics",
+  "Religion",
+  "Science",
+  "Self-Help",
+  "Social Science",
+  "Others"
+];
 
 class CreateBook extends Component {
   state = {

@@ -3,7 +3,7 @@ import { Modal, Button, Icon } from "semantic-ui-react";
 import { api } from "../../../../../api";
 import setAuthToken from "../../../../../utils/setAuthToken";
 import history from "../../../../../history";
-import Spinner from "../../../../../spinner/Spinner";
+import Spinner from "../../../../../components/spinner/Spinner";
 
 class ImageModal extends Component {
   state = {
